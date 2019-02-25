@@ -1,21 +1,18 @@
 ---
 language: nodejs
-
 exclude_files:
-- .git/
-- .gitignore
-- .gitmodules
+- ".git/"
+- ".gitignore"
+- ".gitmodules"
 - cf_spec/
 - log/
 - test/
 - bin/package
 - buildpack-packager/
-
 url_to_dependency_map:
 - match: node\/v(\d+\.\d+\.\d+)
   name: node
-  version: $1
-
+  version: "$1"
 dependencies:
 - name: node
   version: 0.8.6
