@@ -49,6 +49,9 @@ dependencies:
   sha256: 0f7773d9d19865132c4eb47e0b2dc3f72cb3c69cfda5133fad0843da9e8ff483
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v6.15.0/node-v6.15.0.tar.gz
 - name: node
   version: 6.15.0
@@ -63,6 +66,9 @@ dependencies:
   sha256: 16abb1a8bcef1bc6339a738b51f5f2a5e7d48f820da2cec3f4912504517f7490
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v6.15.1/node-v6.15.1.tar.gz
 - name: node
   version: 6.15.1
@@ -77,6 +83,9 @@ dependencies:
   sha256: 1fd67fc4b59e124d4cf80d83662a9ebf6e0bbfa0e437922198b8f006391d2ab3
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 8.13.0
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-8.13.0-linux-x64-cflinuxfs3-21cca77c.tgz
@@ -89,6 +98,9 @@ dependencies:
   sha256: f450e31f62ea241cf5f07d18564808a2d4652a0a5529ae81cba4c688b9286f81
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v8.14.0/node-v8.14.0.tar.gz
 - name: node
   version: 8.14.0
@@ -103,12 +115,18 @@ dependencies:
   sha256: a008671311b82aac5d30a0c1f40b55f80b79406da9f0f11fd1df5b4d7cfd882b
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 9.11.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-9.11.2-linux-x64-cflinuxfs2-58d0bbd0.tgz
   sha256: 58d0bbd00dce33927281735870b490175f1135e7ac927cb2ac30edf744476474
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 9.11.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-9.11.2-linux-x64-cflinuxfs3-86e844f9.tgz
@@ -121,6 +139,9 @@ dependencies:
   sha256: 7ed8093c196e66fa639ea1467c12eb3d5673157c9db89111c69bd805642abd4a
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.14.0/node-v10.14.0.tar.gz
 - name: node
   version: 10.14.0
@@ -135,6 +156,9 @@ dependencies:
   sha256: 53066dffbe52a6d7c0fd65efb9733313d39e2cde191b5d3a6a56325626c921ba
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.14.1/node-v10.14.1.tar.gz
 - name: node
   version: 10.14.1
@@ -163,4 +187,7 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
 pre_package: scripts/build.sh
