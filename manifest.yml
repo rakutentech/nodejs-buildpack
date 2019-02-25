@@ -45,39 +45,60 @@ dependencies:
   md5: 9f48b58738d33e263789c30f9d1a044b
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 4.8.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.2-linux-x64-09d53abc.tgz
-  md5: 09d53abca4f08cf63b9eb88b7175266f
+  md5: '09d53abca4f08cf63b9eb88b7175266f'
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 7.9.0
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.9.0-linux-x64-5d69c9a3.tgz
   md5: 5d69c9a326c4eb6f83bbc1d8993b4fc1
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 4.8.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-4.8.3-linux-x64-0622641b.tgz
   md5: 0622641b64386fdfcaa82da4987a1105
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 6.10.3
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-6.10.3-linux-x64-34d4554a.tgz
   md5: 34d4554aed60809aa0d3df581c84d3a7
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: node
   version: 7.10.0
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.10.0-linux-x64-a608be81.tgz
   md5: a608be8101ca3523405f37fa4ace16bc
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
 - name: yarn
   version: 0.24.4
   uri: https://buildpacks.cloudfoundry.org/dependencies/yarn/yarn-v0.24.4-da248c88.tar.gz
   md5: da248c8867553d500c08efc3179850f7
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
