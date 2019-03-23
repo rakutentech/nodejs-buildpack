@@ -45,6 +45,9 @@ dependencies:
   sha256: fa3b72020ee4005fd0168bef41a765bbc382e4c4fdf65011f6b1c0b5b631c1ab
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v6.16.0/node-v6.16.0.tar.gz
   source_sha256: 5432c6cba59bfef5794951193e93dbbd1707960b6c722925afcdb4517f4dc742
 - name: node
@@ -61,6 +64,9 @@ dependencies:
   sha256: d510e3a24c7b617eaf46b166621c6978ebc7fd175e63ef8a970128c9c14edbd8
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v6.17.0/node-v6.17.0.tar.gz
   source_sha256: ef7b5cdffd110c194ef25fe14e455e0dea0fd894550ba33aadb90b0da8e14be2
 - name: node
@@ -77,6 +83,9 @@ dependencies:
   sha256: 1e19815bf98e0555a9f6cbdb6b3031611718a38cacf7704ffb904be5a7bb9e58
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v8.15.0/node-v8.15.0.tar.gz
   source_sha256: 590fc8b09c2466f8f7854ce3342ae1d0ba421c104999b7bd54ec0c690321d2aa
 - name: node
@@ -93,6 +102,9 @@ dependencies:
   sha256: ed20b1fb7feac745e0c5a221caa907f1f66f77c2de2ac9f1e6edb06448f71575
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v8.15.1/node-v8.15.1.tar.gz
   source_sha256: 413e0086bd3abde2dfdd3a905c061a6188cc0faceb819768a53ca9c6422418b4
 - name: node
@@ -109,6 +121,9 @@ dependencies:
   sha256: 331f06e2a5fdeeb0f681adce81bc07682bac0418c114f775d07cdabaa0808726
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.14.2/node-v10.14.2.tar.gz
   source_sha256: 5b8a55d829d951d2a5ccefd4ffe4f9154673ebc621fd6c676bea09bba95cf96b
 - name: node
@@ -117,6 +132,9 @@ dependencies:
   sha256: d1a7fed0e8d379dbd588f67cba937ab87021360e43d8960466f73ece91f6ea41
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.15.0/node-v10.15.0.tar.gz
   source_sha256: dbe467e3dabb6854fcb0cd96e04082268cb1e313ce97a4b7100b2ed152b0a0ab
 - name: node
@@ -158,6 +176,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   source: https://github.com/yarnpkg/yarn/releases/download/v1.15.2/yarn-v1.15.2.tar.gz
   source_sha256: c4feca9ba5d6bf1e820e8828609d3de733edf0e4722d17ed7ce493ed39f61abd
 pre_package: scripts/build.sh
