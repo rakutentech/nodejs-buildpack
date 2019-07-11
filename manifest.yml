@@ -41,6 +41,9 @@ dependencies:
   sha256: ed20b1fb7feac745e0c5a221caa907f1f66f77c2de2ac9f1e6edb06448f71575
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v8.15.1/node-v8.15.1.tar.gz
   source_sha256: 413e0086bd3abde2dfdd3a905c061a6188cc0faceb819768a53ca9c6422418b4
 - name: node
@@ -57,6 +60,9 @@ dependencies:
   sha256: 81e871767a33ad4dd275db81bd9a7143e697c1477f5fa1a268b776dc9499fa1b
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v8.16.0/node-v8.16.0.tar.gz
   source_sha256: a1a885add3e511177f05676f0834df710886b68cb559b893169f8674a23adfcf
 - name: node
@@ -73,6 +79,9 @@ dependencies:
   sha256: 331f06e2a5fdeeb0f681adce81bc07682bac0418c114f775d07cdabaa0808726
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.14.2/node-v10.14.2.tar.gz
   source_sha256: 5b8a55d829d951d2a5ccefd4ffe4f9154673ebc621fd6c676bea09bba95cf96b
 - name: node
@@ -81,6 +90,9 @@ dependencies:
   sha256: d1a7fed0e8d379dbd588f67cba937ab87021360e43d8960466f73ece91f6ea41
   cf_stacks:
   - cflinuxfs2
+  - dev
+  - stg
+  - pro
   source: https://nodejs.org/dist/v10.15.0/node-v10.15.0.tar.gz
   source_sha256: dbe467e3dabb6854fcb0cd96e04082268cb1e313ce97a4b7100b2ed152b0a0ab
 - name: node
@@ -122,6 +134,9 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+  - dev
+  - stg
+  - pro
   source: https://github.com/yarnpkg/yarn/releases/download/v1.16.0/yarn-v1.16.0.tar.gz
   source_sha256: df202627d9a70cf09ef2fb11cb298cb619db1b958590959d6f6e571b50656029
 pre_package: scripts/build.sh
